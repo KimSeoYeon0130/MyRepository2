@@ -11,5 +11,6 @@ public class Shape {
 	
 	void print() {
 		System.out.println("(x, y) = (" + x + ", " + y + ")");
+		System.out.println("devB version");
 	}
 }
