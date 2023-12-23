@@ -21,6 +21,9 @@ public class RectangleTest {
 		r1.draw();
 		r2.print();
 		r2.draw();
+		
+		System.out.println("r1의 넓이: " + r1.area());
+		System.out.println("r2의 넓이: " + r2.area());
 	}
 
 }
