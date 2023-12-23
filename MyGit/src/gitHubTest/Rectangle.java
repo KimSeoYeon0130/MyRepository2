@@ -16,5 +16,7 @@ public class Rectangle extends Shape{
 	void draw() {
 		System.out.println("(" + this.getX() + ", " + this.getY() + "), "
 				+ "가로: " + width + ", 세로: " + height);
+		System.out.println("devC version");
 	}
+	
 }

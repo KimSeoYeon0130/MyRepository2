@@ -7,6 +7,7 @@ public class RectangleTest {
 		Rectangle r1 = new Rectangle();
 		Rectangle r2 = new Rectangle();
 		Rectangle r3 = new Rectangle();
+		Rectangle r4 = new Rectangle();
 		
 		r1.setX(5);
 		r1.setY(3);
@@ -23,6 +24,11 @@ public class RectangleTest {
 		r3.setWidth(20);
 		r3.setHeight(10);
 		
+		r4.setX(5);
+		r4.setY(5);
+		r4.setWidth(15);
+		r4.setHeight(15);
+		
 		r1.print();
 		r1.draw();
 		r2.print();
@@ -33,6 +39,8 @@ public class RectangleTest {
 
 		r3.print();
 		r3.draw();
+		r4.print();
+		r4.draw();
 	}
 
 }
